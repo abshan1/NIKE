@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike Website</title>
+    <!-- Font Awesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts CDN Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Matemasie&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CDN link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="./style.css" />
+    
+  </head>
+  <body>
+    <!-- header section -->
+    <div class="header">
+      <div class="container-fluid gx-0">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <img width="100px" height="80px" src="https://4.bp.blogspot.com/-BGYw9I05BVk/TiRdC7c0NzI/AAAAAAAAAiQ/1ebLElEEGCc/s1600/Nike_logo.jpg" alt="">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">New & Featured</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn-navbar" href="#">Buy Now</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container">
+          <div class="content-home">
+            <div class="row content-home2">
+              <div class="col-lg-7 col-md-5">
+                <div class="box-container">
+                  <img
+                    src="https://sneakernews.com/wp-content/uploads/2023/05/nike-air-max-solo-release-date.jpg?w=540&h=380&crop=1"
+                    class="img-home"
+                    alt="headphone banner image"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-7">
+                <div class="box-container2">
+                  <h1 class="home-heading">
+                    Crafted for the
+                    <span class="home-span">BUILT FOR THE CHASE</span>
+                  </h1>
+                  <p class="para-home">
+                    Run'em down in the new Giannis Freak 6
+                  </p>
+                  <div class="btn-home">
+                    <a href="#" class="home-links">Buy Now</a>
+                    <a href="#" class="home-links btn-2">Explore</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about section -->
+    <div class="container">
+      <div class="about-us-container">
+        <div class="about-us">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="content-about">
+                <h2 class="heading-about">About Us</h2>
+                <p class="para-about">
+                  NIKE, Inc. is a team comprised of the Nike, Jordan and Converse brands driven by a shared purpose to leave an enduring impact.With a global footprint, culture of innovation and team-first mentality, we take action to create a future of continual progress for athletes, sport and our world.
+                </p>
+                <p class="para-about">
+                  Our purpose is to move the world forward through the power of sport. Worldwide, we're leveling the playing field, doing our part to protect our collective playground and expanding access to sport for everyone.
+                </p>
+                <a href="#" class="link-about"
+                  ><span class="span-about"></span>Read More<span
+                    class="icon-arow"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img  
+                src="https://i.pinimg.com/originals/66/d6/aa/66d6aae3596cd8868d08c9ceb2b0160c.jpg"
+                class="img-about"
+                alt="earphone image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- products section -->
+    <section class="product-category">
+      <h2 class="heading-product">Product Category</h2>
+      <div class="container-fluid">
+        <!-- carousel -->
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                    <!-- cards -->
+                    <div class="card card-product">
+                      <img
+                        src="https://www.sneakerfiles.com/wp-content/uploads/2023/01/nike-sb-air-jordan-4-pine-green-DR5415-103-release-date-info.jpeg"
+                        class="card-img-top img-card"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">NIKE DUNK RETRO QS</h5>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis provident sequi ad. Esse, eius numquam! Amet perferendis minima ipsam cum ut blanditiis. Debitis est itaque consequuntur nam deserunt quidem?
+                        </p>
+                        <a href="#" class="btn-product-ctg"
+                          >Read More<span class="icon-arow">
+                            <i class="fa-solid fa-arrow-right"></i></span
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <!-- cards -->
+                    <div class="card card-product">
+                      <img
+                        src="https://th.bing.com/th/id/OIP.WiwBEk9GtemLBCkt7c1JFQHaE8?rs=1&pid=ImgDetMain"
+                        class="card-img-top img-card"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">REVERSE PANDA</h5>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam tempore non distinctio nostrum, voluptatem vitae neque consequatur tenetur expedita repellendus eos, inventore veritatis? Quia provident nisi minus facilis optio voluptatibus.
+                        </p>
+                        <a href="#" class="btn-product-ctg"
+                          >Read More<span class="icon-arow">
+                            <i class="fa-solid fa-arrow-right"></i></span
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <!-- cards -->
+                    <div class="card card-product">
+                      <img
+                        src="https://i.pinimg.com/originals/a8/ea/d3/a8ead32c96cdb41399d27a95c2d43df4.jpg"
+                        class="card-img-top img-card"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">NIKE TRAINERS</h5>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque labore cupiditate possimus adipisci. Accusamus itaque ratione soluta saepe, ab voluptatibus quis dolor consequatur perspiciatis illum nam iure quia non at!
+                        </p>
+                        <a href="#" class="btn-product-ctg"
+                          >Read More<span class="icon-arow">
+                            <i class="fa-solid fa-arrow-right"></i></span
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                    <!-- cards -->
+                    <div class="card card-product">
+                      <img
+                        src="https://academy.scene7.com/is/image/academy/20963596?$pdp-mobile-gallery-ng$"
+                        class="card-img-top img-card"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">NIKE ADULT'S RUNNING SHOE</h5>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo accusamus voluptatibus dicta eius, adipisci temporibus excepturi. Optio, dolorem eaque! Perspiciatis quas quibusdam facilis nulla culpa necessitatibus quis tempora blanditiis iure!
+                        </p>
+                        <a href="#" class="btn-product-ctg"
+                          >Read More<span class="icon-arow">
+                            <i class="fa-solid fa-arrow-right"></i></span
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <!-- cards -->
+                    <div class="card card-product">
+                      <img
+                        src="https://academy.scene7.com/is/image/academy/20927901?$pdp-mobile-gallery-ng$"
+                        class="card-img-top img-card"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">NIKE ADULT SHOE</h5>
+                        <p class="card-text">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad voluptates fugit iste laboriosam culpa nemo voluptatem repudiandae eum numquam modi, ex quisquam perspiciatis nobis quia amet autem quasi ea.
+                        </p>
+                        <a href="#" class="btn-product-ctg"
+                          >Read More<span class="icon-arow">
+                            <i class="fa-solid fa-arrow-right"></i></span
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <!-- cards -->
+                    <div class="card card-product">
+                      <img
+                        src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/43207cdd-daa8-46b6-a170-2138a143ead3/air-zoom-pegasus-38-cincinnati-bengals-mens-running-shoe-884pG1.png"
+                        class="card-img-top img-card"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">NIKE TRAINEE SHOE</h5>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptate iste exercitationem voluptatum impedit recusandae doloribus. Enim cum architecto quia cumque quis aspernatur, veritatis provident? Eligendi quia distinctio aspernatur ratione.
+                        </p>
+                        <a href="#" class="btn-product-ctg"
+                          >Read More<span class="icon-arow">
+                            <i class="fa-solid fa-arrow-right"></i></span
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev btn-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span
+              ><i class="fa-solid fa-arrow-left btn-scroll button-left"></i
+            ></span>
+          </button>
+          <button
+            class="carousel-control-next btn-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span
+              ><i class="fa-solid fa-arrow-right btn-scroll button-right"></i
+            ></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial section -->
+    <section class="testimonial">
+      <h2 class="heading-testimonial">Client Testimonials</h2>
+      <p class="para-testimonial">
+        Our Clients love us! Here's what they have to say about their experience
+        with Nike
+      </p>
+      <div class="container-fluid">
+        <!-- slider -->
+        <div class="container-fluid">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <!-- <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button> -->
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container container-clients">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-12 my-2">
+                      <div class="container-content">
+                        <div class="img-client">
+                          <img
+                            class="image-client"
+                            src="https://th.bing.com/th/id/R.ac6ded79295b6b536fa313f78644fc47?rik=TTCYdivodgOrVg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fxt2DuKK.jpg&ehk=eK7sbsHhmT1ZHxa53TV76T8XVoLcXARpz6pHphMSIyQ%3d&risl=&pid=ImgRaw&r=0"
+                            alt="client 1"
+                          />
+                        </div>
+
+                        <div class="icons-stars">
+                          <ul class="rating">
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                          <h3 class="client-name">JOHN ABY</h3>
+                          <p class="para-client">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta natus eius voluptatibus eveniet earum perferendis, illo fugit repudiandae, veritatis porro! Nesciunt qui nulla fugiat ullam est itaque sunt amet.
+                          </p>
+                          <h5 class="profession">SPORTS TRAINEE</h5>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 my-2">
+                      <div class="container-content">
+                        <div class="img-client">
+                          <img
+                            class="image-client"
+                            src="https://th.bing.com/th/id/OIP.dLlde3z9porAQJhPmrRVDwHaFj?rs=1&pid=ImgDetMain"
+                            alt="client 2"
+                          />
+                        </div>
+
+                        <div class="icons-stars">
+                          <ul class="rating">
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                          <h3 class="client-name">EMMA WATSON</h3>
+                          <p class="para-client">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, exercitationem minima nam nostrum, voluptatum qui illum inventore deleniti neque adipisci aut dolorum cumque nobis ullam tenetur cupiditate at, quasi praesentium!
+                          </p>
+                          <h5 class="profession">ACTRESS</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container container-clients">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-12 my-2">
+                      <div class="container-content">
+                        <div class="img-client">
+                          <img
+                            class="image-client"
+                            src="https://netstorage-legit.akamaized.net/images/9d78d20ab8bfab21.jpg?imwidth=900"
+                            alt="client 3"
+                          />
+                        </div>
+
+                        <div class="icons-stars">
+                          <ul class="rating">
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                          <h3 class="client-name">MONICA GELLER</h3>
+                          <p class="para-client">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam praesentium excepturi facere, vitae illum harum voluptatem quisquam vel neque. Animi voluptates, vitae nesciunt architecto vero obcaecati porro repellat alias placeat?re
+                            is a game-changer for my daily commute.
+                          </p>
+                          <h5 class="profession">Software Developer</h5>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 my-2">
+                      <div class="container-content">
+                        <div class="img-client">
+                          <img
+                            class="image-client"
+                            src="https://th.bing.com/th/id/OIP.xxqLlAibCoGlMhiz1dh1SAHaLH?rs=1&pid=ImgDetMain"
+                            alt="client 4"
+                          />
+                        </div>
+
+                        <div class="icons-stars">
+                          <ul class="rating">
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="stars">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                          <h3 class="client-name">JOEY BING</h3>
+                          <p class="para-client">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita harum error tempora, neque incidunt assumenda ut quasi obcaecati, delectus placeat quidem illo, distinctio itaque cupiditate blanditiis? Qui, voluptates. Repudiandae, quos!
+                          </p>
+                          <h5 class="profession">Web Designer</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section [ too much logic thinking!] -->
+    <section class="contact-form">
+      <h3 class="heading-contact">Contact Us</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <form class="form-origin">
+              <div class="row">
+                <div class="col-lg-6 col-md-12">
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Full Name"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email Address"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="mb-3">
+                    <textarea
+                      class="form-control"
+                      placeholder="Your Message"
+                      id="floatingTextarea"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="mb-3 text-center">
+                    <a href="#" class="btn-contact">Send Message</a>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <div class="content-contact">
+              <h2 class="heading-content">More About <span>NIKE</span></h2>
+              <p class="para-content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt esse iste asperiores laborum. Fugit corporis eos, blanditiis molestiae expedita ea ratione exercitationem dolorum facilis! Earum quidem sint modi voluptas quisquam?
+                Tempora delectus natus dolorem iste ducimus maiores illo libero laborum.
+              </p>
+              <p class="para-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perspiciatis cupiditate aliquam. Minus molestiae ducimus, blanditiis tempora ipsa, eveniet provident, neque ex nobis eos nulla cumque nostrum quae aliquid debitis!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="para-footer">NIKE Website &#121 2024. All Rights Reserved</p>
+    </footer>
+    <!-- scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
